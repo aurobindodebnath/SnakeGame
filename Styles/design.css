@@ -31,6 +31,30 @@ body{
     margin: 26px auto;
     background-color: yellow;
 }
+
+.actions-container {
+	text-align: center;
+}
+
+a.start-game {
+	display: inline-block;
+	margin: 0 auto;
+	padding: 6px 12px;
+	border: 1px solid lightgrey;
+	border-radius: 4px;
+	background: transparent;
+	color: lightgrey;
+	font-size: 16px;
+	cursor: pointer;
+	text-decoration: none;
+	transition: all 0.3s ease-in-out;
+}
+
+a.start-game:hover {
+	background: lightgrey;
+	color: #3e3148;
+}
+
 .grid {
     height: 30px;
     width: 30px;

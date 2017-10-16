@@ -14,7 +14,7 @@ var speed=100;
 //This variable tells whether the snake touched its body or not
 var touch=false;
 
-//this boolean checks whether the snake is moving horizontally or vertically 
+//this boolean checks whether the snake is moving horizontally or vertically
 var horizontal=false;
 
 //this boolean checks whether the movement of the snake is along negative axis or positive axis

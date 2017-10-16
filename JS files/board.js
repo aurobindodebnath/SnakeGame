@@ -14,6 +14,10 @@ var grid=[
 	[0,0,0,0,0,0,0,0,0,0]
 ];
 
+function start() {
+	setupGrid();
+}
+
 //This function makes the corresponding changes in the GUI
 function GUIgrid()
 {
